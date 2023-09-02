@@ -1,0 +1,20 @@
+#matrix-section-contaianer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.matrix-row {
+    padding: 4px 0px;
+}
+
+.matrix-cell {
+    padding: 12px;
+    background-color: white;
+    height: 8px;
+    width: 8px;
+    border: none;
+}

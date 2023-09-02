@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./processGrid.js"></script>
+    <script src="./setupGrids.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="configuration-container">
+      <input
+        type="number"
+        name="rows"
+        id="rowCount"
+        step="1"
+        min="1"
+        value="3"
+      />
+      <input
+        type="number"
+        name="cols"
+        id="colCount"
+        step="1"
+        min="1"
+        value="3"
+      />
+    </div>
+    <div id="matrix-section-contaianer">
+      <div id="input-matrix" class="matrix-grid"></div>
+      <div id="process-action">
+        <button onclick="processSetMatrixZero()">Process</button>
+      </div>
+      <div id="output-matrix" class="matrix-grid"></div>
+    </div>
+  </body>
+</html>
