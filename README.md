@@ -1,14 +1,19 @@
-﻿# set-matrix-zero
+# set-matrix-zero
 UI for the leetcode problem [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
 # Feature list
 - [ ] Basic UI elements
-    - [x] input & output grid and process button
-    - [x] make input dynamic
-    - [x] make rows & cols dynamic
-    - [ ] put labels on row and col input
+    - [x] Input & output grid and process button
+    - [x] Make input dynamic
+    - [x] Make rows & cols dynamic
+    - [ ] Put labels on row and col input
+    - [ ] View history
 - [ ] Improve styles
-    - [ ] put an arrow img in button with hover effects
-    - [ ] style the grids with hover effects and border
-    - [ ] put styles on row and col input
-    - [ ] make the UI responsive for mobile
+    - [ ] Put an arrow img in button with hover effects
+    - [ ] Style the grids with hover effects and border
+    - [ ] Put styles on row and col input
+    - [ ] Make the UI responsive for mobile
+- [ ] Improve styles
+    - [ ] Deploy on netlify
+    - [ ] Move the process logic to backend API and integrate UI with backend
+    - [ ] Store history in DB
