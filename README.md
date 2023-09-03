@@ -13,7 +13,7 @@ UI for the leetcode problem [Set Matrix Zeroes](https://leetcode.com/problems/se
     - [ ] Style the grids with hover effects and border
     - [ ] Put styles on row and col input
     - [ ] Make the UI responsive for mobile
-- Improve styles
+- Additional features
     - [ ] Deploy on netlify
     - [ ] Move the process logic to backend API and integrate UI with backend
     - [ ] Store history in DB
