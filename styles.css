@@ -18,3 +18,12 @@
     width: 8px;
     border: none;
 }
+
+#configuration-container {
+    display: flex;
+    flex-direction: column;
+
+    #rowCount, #colCount {
+        width: fit-content;
+    }
+}
