@@ -6,7 +6,7 @@ UI for the leetcode problem [Set Matrix Zeroes](https://leetcode.com/problems/se
     - [x] Input & output grid and process button
     - [x] Make input dynamic
     - [x] Make rows & cols dynamic
-    - [ ] Put labels on row and col input
+    - [x] Put labels on row and col input
     - [ ] View history
 - Improve styles
     - [ ] Put an arrow img in button with hover effects
@@ -14,6 +14,6 @@ UI for the leetcode problem [Set Matrix Zeroes](https://leetcode.com/problems/se
     - [ ] Put styles on row and col input
     - [ ] Make the UI responsive for mobile
 - Additional features
-    - [ ] Deploy on netlify
+    - [x] Deploy on netlify
     - [ ] Move the process logic to backend API and integrate UI with backend
     - [ ] Store history in DB
