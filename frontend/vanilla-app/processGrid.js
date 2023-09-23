@@ -68,7 +68,7 @@ async function makeProcessCall(input) {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ inputMatrix: matrix })
+        body: JSON.stringify({ inputMatrix: input })
     });
     const content = await rawResponse.json();
     return content;
