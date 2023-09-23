@@ -63,7 +63,7 @@ async function processSetMatrixZero () {
 
 async function makeProcessCall(input) {
     const rawResponse = await fetch('/.netlify/functions/v1/process', {
-        method: 'GET',
+        method: 'POST',
         headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
