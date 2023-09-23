@@ -54,8 +54,22 @@ function setZeroes (matrix) {
     return matrix;
 }
 
-function processSetMatrixZero () {
+async function processSetMatrixZero () {
     const matrix = getInputGridData();
-    outputMatrix = setZeroes(matrix);
+    const res = await makeProcessCall(matrix);
+    outputMatrix = res?.outputMatrix;
     setOutputGridData(outputMatrix);
+}
+
+async function makeProcessCall(input) {
+    const rawResponse = await fetch('/.netlify/functions/v1/process', {
+        method: 'GET',
+        headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ inputMatrix: matrix })
+    });
+    const content = await rawResponse.json();
+    return content;
 }

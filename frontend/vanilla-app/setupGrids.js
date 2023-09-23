@@ -24,6 +24,7 @@ function createGrid(gridId, cellType = 'input') {
       cell.className = "matrix-cell";
       if (gridId === 'output-matrix')  cell.disabled = true;
       cell.value = '1';
+      cell.addEventListener("change", processSetMatrixZero);
       row.appendChild(cell);
     }
     matrixGrid.appendChild(row);
