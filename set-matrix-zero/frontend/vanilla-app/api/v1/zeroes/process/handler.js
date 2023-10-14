@@ -2,6 +2,8 @@ export default function handler(
   request,
   response,
 ) {
+  const inputMatrix = request.body.inputMatrix;
+  const outputMatrix = setZeroes(inputMatrix);
   response.status(200).json({
     body: JSON.stringify({ outputMatrix }),
   });
