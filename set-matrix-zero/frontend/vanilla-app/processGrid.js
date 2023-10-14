@@ -62,7 +62,7 @@ async function processSetMatrixZero () {
 }
 
 async function makeProcessCall(input) {
-    const rawResponse = await fetch('/api/v1/zeroes/process/handler', {
+    const rawResponse = await fetch('/api/v1/zeroes/process', {
         method: 'POST',
         headers: {
         'Accept': 'application/json',
