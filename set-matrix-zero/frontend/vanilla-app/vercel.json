@@ -1,7 +1,0 @@
-{
-    "functions" : {
-        "vercel/api/**/*.js": {
-            "memory": 1024
-        }
-    }
-}
