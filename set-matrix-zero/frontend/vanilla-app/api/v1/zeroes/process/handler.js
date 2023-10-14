@@ -5,7 +5,7 @@ export default function handler(
   const inputMatrix = request.body.inputMatrix;
   const outputMatrix = setZeroes(inputMatrix);
   response.status(200).json({
-    body: JSON.stringify({ outputMatrix }),
+    outputMatrix
   });
 }
 
