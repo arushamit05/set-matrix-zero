@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./processGrid.js"></script>
+    <script src="./setupGrids.js"></script>
+    <title>Merge Sorted Arrays</title>
+  </head>
+  <body>
+    <div id="configuration-container">
+      <label for="nCount">n:</label>
+        <input
+          type="number"
+          name="n"
+          id="nCount"
+          step="1"
+          min="1"
+          value="3"
+        />
+      <label for="mCount">m:</label>  
+        <input
+          type="number"
+          name="m"
+          id="mCount"
+          step="1"
+          min="1"
+          value="3"
+        />
+    </div>
+    <div id="array-section-container">
+      <div id="input-array-n" class="array-container"></div>
+      <div id="input-array-m" class="array-container"></div>
+      <div id="process-action">
+        <button onclick="processMergeSortedArray()">Process</button>
+      </div>
+      <div id="output-array" class="array-container"></div>
+    </div>
+  </body>
+</html>
+
