@@ -62,7 +62,7 @@ async function processSetMatrixZero () {
 }
 
 async function makeProcessCall(input) {
-    const rawResponse = await fetch('/api/v1/process', {
+    const rawResponse = await fetch('https://web-projects.arushamit05.repl.co/v1/zeroes/process', {
         method: 'POST',
         headers: {
         'Accept': 'application/json',
