@@ -2,7 +2,7 @@ function getInputArrayData () {
     const n = Number(document.getElementById("nCount").value);
     const m = Number(document.getElementById("mCount").value);
     let array1 = [], x = 0;
-    let array2 = []; y = 0;
+    let array2 = [], y = 0;
     const extractedGridData = Array.from(document.querySelectorAll("#input-array .array-cell"))
         .map(node => Number(node.value))
     
@@ -39,6 +39,8 @@ function merge(array1, array2, n, m) {
 
     array1.sort((a, b) => a - b);
     array2.sort((a, b) => a - b);
+
+    
 }
 
 function processMergeSortedArray () {
